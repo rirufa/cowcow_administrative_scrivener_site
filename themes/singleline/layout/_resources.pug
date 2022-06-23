@@ -1,0 +1,14 @@
+﻿mixin gen_lang_switch(lang,label)
+	- if(page.layout == undefined || page.layout == "index")
+		a(href=`/${lang}`) #{label}
+	- else
+		- var tokens = page.path.split("/")
+		- var url = ""
+		- var lang_tag_index = 0
+		- for(var i = 0;i < tokens.length; i++)
+			- url += "/"
+			- if(i == lang_tag_index)
+				- url += lang
+			- else if(tokens[i] != "index.html")	//index.htmlはなくても動く
+				- url += tokens[i]
+		a(href=`${url}`) #{label}

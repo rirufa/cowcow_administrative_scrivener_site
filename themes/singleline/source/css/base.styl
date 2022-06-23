@@ -1,0 +1,48 @@
+base-color = #fff
+main-color = #e8c135
+accent-color = #D6AC31
+string-color = #000
+
+*
+    color string-color
+
+a
+    text-decoration none
+
+h2,h3
+    border-left-style solid
+    border-left-color main-color[0]
+
+.address
+    & > .telphone
+        font-size 22pt
+
+#logo
+    font-size 22px
+    font-weight bold
+
+.global_nav
+    background-color main-color[0]
+    li
+        &:hover
+            background-color accent-color[0]
+        a
+            font-weight bold
+
+#contact
+    & > .query_button
+        background-color main-color[0]
+
+main
+    img
+        object-fit contain
+
+footer
+    color base-color[1]
+    *
+        color base-color[1]
+
+@media screen and (max-width: 768px)
+	h1
+	    font-size 18px
+	    font-weight bold

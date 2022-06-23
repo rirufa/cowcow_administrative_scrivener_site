@@ -1,0 +1,31 @@
+extend _page_base
+
+block custom_header
+	include _header
+	#main_titile
+		picture
+			source(media="(max-width: 768px)" srcset=`${res.company_info.mobile_image_path}`)
+			img(src=`${res.company_info.image_path}`)
+
+block content
+		#infomation
+			#topics
+				each item in get_pages()
+					#summary
+						h3
+							a(href=`/${item.path}`) #{item.title}
+						- if(item.thumbnail != null)
+							img(src=`${item.thumbnail}`)
+						p #{item.summary}
+			#prerelease
+				h2 #{res.index.prerelease_title}
+				table
+					each item in get_posts()
+						tr
+							td #{date(item.date, "YYYY-MM-DD" )}
+							td
+								a(href=`/${item.path}`) #{item.title}
+				a(href=`${url_for('archives')}`) #{res.index.oldprerelease_title}
+
+block custom_footer
+	include _footer

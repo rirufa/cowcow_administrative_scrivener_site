@@ -1,0 +1,30 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Test
+subtitle: ''
+description: ''
+keywords:
+author: John Doe
+language: [ja,en]
+timezone: ''
+
+url: https://test.io
+root: /
+permalink: :language/:year/:month/:day/:title/
+new_post_name: :language/:year/:month/:day/:title.md
+post_asset_folder: true
+per_page: 0
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+theme: singleline
+
+highlight:
+  enable: true
+  line_number: false
+
+disqus_shortname: hexojs

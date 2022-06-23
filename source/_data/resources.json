@@ -1,0 +1,46 @@
+{
+	"ja": {
+		"lang_name":"日本語",
+		"company_info": {
+			"name": "カウカウ行政書士事務所",
+			"tel": "03-6458-1098",
+			"fax_tel": "03-6458-1150",
+			"mobile" : "090-4453-8972",
+			"opentime": "営業時間 11時から18時",
+			"mail": "cowcowhomes201@yahoo.co.jp",
+			"about_page_url": "/ja/about.html",
+			"about_page_title": "当事務所について",
+			"image_path":"/image/accelerate.png",
+			"mobile_image_path":"/image/accelerate_mobile.png",
+			"query_button_label":"お問い合わせはこちらから"
+		},
+		"index": {
+			"prerelease_title":"プレリリース",
+			"oldprerelease_title":"過去のプレリリース",
+			"oldprerelease_title_by_category":"カテゴリー一覧",
+			"oldprerelease_title_by_tag":"タグ一覧"
+		}
+	},
+	"en": {
+		"lang_name":"English",
+		"company_info": {
+			"name": "COWCOW Administrative scrivener Office",
+			"tel": "03-6458-1098",
+			"fax_tel": "03-6458-1150",
+			"mobile" : "090-4453-8972",
+			"opentime": "OPEN TIME 11:00-18:00",
+			"mail": "cowcowhomes201@yahoo.co.jp",
+			"about_page_url": "/en/about.html",
+			"about_page_title": "ABOUT DUMMY",
+			"image_path":"/image/accelerate.png",
+			"mobile_image_path":"/image/accelerate_mobile.png",
+			"query_button_label":"Query"
+		},
+		"index": {
+			"prerelease_title":"NEWS",
+			"oldprerelease_title":"OLD NEWS",
+			"oldprerelease_title_by_category":"CATEGORIES LIST",
+			"oldprerelease_title_by_tag":"TAGS LIST"
+		}
+	}
+}
