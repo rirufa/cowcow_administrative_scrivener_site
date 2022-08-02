@@ -11,7 +11,7 @@ We can help you worrying with administrative scrivener
 
 * I want to get or renew license for resturnat,second hand shop etc
 * I want to renew or update license because inheritance from my parent
-* I want to get or update visa
+* I want to get or update visa(write applicaion form only)
 * I can't pay room fee because I was lay off.
 * bulding website
 
@@ -20,7 +20,7 @@ Also we can find room and office for you in [cowcowhomes](https://www.cowcowhome
 |    |    |
 | ---- | ---- |
 |  Address |  1F Fuji Copo 2-24-17 Higasi Asakusa,Taitouku,〒111-0025  |
-|  License number  |  Tokyo Registoration Number 22081267  |
+|  License number  |  Tokyo Registoration Number 22081267  Yousuke Nishida,assistant Tumura Daisaku|
 |  Mail address  |  [daisaku@cowcowhomes.com](mailto:daisaku@cowcowhomes.com)  |
 |  LINE ID  |  [daichan19740626](https://line.me/ti/p/daichan19740626)  |
 |  WhatsApp |  [QR CODE](https://wa.me/qr/KLSJ6JJ7Z277L1)  |
