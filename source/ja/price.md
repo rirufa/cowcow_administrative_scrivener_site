@@ -13,11 +13,11 @@ summary: 値段表です
 
 |    |    |
 | ---- | ---- |
-| 在留許可の延長 |  \10,000円  |
-| 永住権の申請 |  \55,000円  |
-| 在留資格の申請 |  \55,000円  |
-| 在留資格証明書の申請 |  \55,000円  |
-| 飲食業の許可 | \40,000円 |
+| 在留許可の延長 |  \30,000円  |
+| 永住権の申請 |  \80,000円  |
+| 在留資格の申請 |  \80,000円  |
+| 在留資格証明書の申請 |  \80,000円  |
+| 飲食業の許可 | \60,000円 |
 
 ## アクセス
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.0648183045996!2d139.79760191526!3d35.724624380184196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eeef5223ba1%3A0x55c97367f17381df!2z44CSMTExLTAwMjUg5p2x5Lqs6YO95Y-w5p2x5Yy65p2x5rWF6I2J77yS5LiB55uu77yS77yU4oiS77yR77yXIOOBteOBmOOCs-ODvOODnQ!5e0!3m2!1sja!2sjp!4v1548125976549" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" ></iframe>

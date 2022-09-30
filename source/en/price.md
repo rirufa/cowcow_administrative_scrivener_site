@@ -13,11 +13,11 @@ Consulation fee is free but if you want to know how to make document etc about l
 
 |    |    |
 | ---- | ---- |
-| Extension of period of stay |  \10,000 yen  |
-| Permanet Residence |  \55,000 yen  |
-| Change of Status of Residence |  \55,000 yen  |
-| Certificate of Eligibility for Status of Residence |  \55,000 yen  |
-| Resurant License | \40,000 yen |
+| Extension of period of stay |  \30,000 yen  |
+| Permanet Residence |  \80,000 yen  |
+| Change of Status of Residence |  \80,000 yen  |
+| Certificate of Eligibility for Status of Residence |  \80,000 yen  |
+| Resurant License | \60,000 yen |
 | Free Consultation |   |
 
 
