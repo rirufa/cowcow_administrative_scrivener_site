@@ -19,7 +19,7 @@ summary: 当事務所の業務や所在地などを記載してます
 |    |    |
 | ---- | ---- |
 |  住所  |  〒111-0025 東京都台東区東浅草２丁目２４−１７  |
-|  登録番号  |  東京行政書士会 登録番号22081267 西田陽介、補助者 津村大作  |
+|  登録番号  |  東京行政書士会 登録番号22081267 申請取次 132023200099 西田陽介、補助者 津村大作  |
 |  メールアドレス  |  [daisaku@cowcowhomes.com](mailto:daisaku@cowcowhomes.com)  |
 |  LINE ID  |  [daichan19740626](https://line.me/ti/p/daichan19740626)  |
 |  WhatsApp |  [QR CODE](https://wa.me/qr/KLSJ6JJ7Z277L1)  |
