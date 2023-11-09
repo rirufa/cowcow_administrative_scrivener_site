@@ -9,7 +9,8 @@ summary: Written about price
 ---
 # Obtain license
 The fee is depend of difficulty
-If it is successful, you need to pay blow fee with tax,registoration fee,stax fee,traffic expense fee etc
+If it is successful, you need to pay blow fee.
+It is despite of suuccessful or fail, you have to pay tax,registoration fee,tax fee,traffic expense fee etc.
 Consulation fee is free but if you want to know how to make document etc about license, you need to pay 5,000 yen with tax per one hour.
 
 |    |    |
