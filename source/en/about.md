@@ -11,7 +11,7 @@ We can help you worrying with administrative scrivener
 
 * I want to get or renew license for resturnat,second hand shop etc
 * I want to renew or update license because inheritance from my parent
-* I want to get or update visa(write applicaion form only)
+* I want to get or update visa
 * I can't pay room fee because I was lay off.
 * bulding website
 
