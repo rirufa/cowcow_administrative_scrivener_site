@@ -20,7 +20,7 @@ Also we can find room and office for you in [cowcowhomes](https://www.cowcowhome
 |    |    |
 | ---- | ---- |
 |  Address |  1F Fuji Copo 2-24-17 Higasi Asakusa,Taitouku,〒111-0025  |
-|  License number  |  Tokyo Registoration Number 22081267 Proxy Applicaion For Visa 132023200099 Yousuke Nishida,assistant Tumura Daisaku|
+|  License number  |   |
 |  Mail address  |  [daisaku@cowcowhomes.com](mailto:daisaku@cowcowhomes.com)  |
 |  LINE ID  |  [daichan19740626](https://line.me/ti/p/daichan19740626)  |
 |  WhatsApp |  [QR CODE](https://wa.me/qr/KLSJ6JJ7Z277L1)  |
