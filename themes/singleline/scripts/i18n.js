@@ -1,7 +1,8 @@
+// hexo-theme-minos/scripts/10_i18n.js からコピペ
+
 const _ = require('lodash');
 const util = require('hexo-util');
 const postGenerator = require('hexo/lib/plugins/generator/post');
-const indexGenerator = require('hexo-generator-index/lib/generator');
 const archiveGenerator = require('hexo-generator-archive/lib/generator');
 const categoryGenerator = require('hexo-generator-category/lib/generator');
 const tagGenerator = require('hexo-generator-tag/lib/generator');
@@ -28,18 +29,30 @@ const {
 const _original_post_creator = hexo.post.create.bind(hexo.post);
 
 hexo.post.create = async (data, replace) => {
+  let res;
   let results = [];
-
-  for (let lang of getDisplayLanguages()) {
-    data['language'] = lang;
-    let res = await _original_post_creator(data, replace);
-    results.push(res);
+  if(data.path || data.layout == 'draft')
+  {
+      res = await _original_post_creator(data, replace);
+      results.push(res);
+  }else{
+    for (let lang of getDisplayLanguages()) {
+      // filter/new_post_path.jsとhexo/post.jsのPost.createからコピペ
+      data.slug = util.slugize((data.slug || data.title).toString(), { transform: hexo.config.filename_case });
+      switch (data.layout) {
+        case 'page':
+          data['path'] = pathJoin(lang, data.slug, 'index');
+          break;
+      }
+      data['language'] = lang;
+      let res = await _original_post_creator(data, replace);
+      results.push(res);
+      hexo.log.info(
+        'Posts created in: %s',
+        magenta(tildify(res.path))
+      );
+    }
   }
-
-  hexo.log.info(
-    'Posts created in: %s',
-    magenta(getDisplayLanguages())
-  );
 
   for (let i in results) {
     if (i != 0) hexo.log.info('Created: %s', magenta(tildify(results[i].path)));
@@ -48,6 +61,9 @@ hexo.post.create = async (data, replace) => {
   return results[0];
 };
 
+
+
+// hexo-theme-minos/scripts/10_i18n.js　からコピペ
 /**
  * Modify previous and next post link
  */
@@ -77,34 +93,6 @@ hexo.extend.generator.register('post', function(locals) {
         return route;
     });
 });
-
-/**
- * Multi-language index generator.
- *
- * ATTENTION: This will override the default index generator!
- */
-hexo.extend.generator.register('index', injectLanguages(function(languages, locals) {
-    return _.flatten(languages.map((language) => {
-        // Filter posts by language considering. Posts without a language is considered of the default language.
-        const posts = locals.posts.filter(postFilter(language));
-        if (posts.length === 0) {
-            return null;
-        }
-        const routes = indexGenerator.call(this, Object.assign({}, locals, {
-            posts: posts
-        }));
-        return routes.map(route => {
-            const data = Object.assign({}, route.data, {
-                base: pathJoin(language, route.data.base),
-                current_url: pathJoin(language, route.data.current_url)
-            });
-            return Object.assign({}, route, {
-                path: pathJoin(language, route.path),
-                data: data
-            });
-        });
-    }).filter(post => post !== null));
-}));
 
 /**
  * Multi-language archive generator.
@@ -358,6 +346,7 @@ hexo.extend.helper.register('i18n_path', function (language) {
     const path = this.page.path;
     const lang = getPageLanguage(this.page);
     const base = path.startsWith(lang) ? path.slice(lang.length + 1) : path;
+    console.log(path + " is " + lang);
     return (language ? '/' + language : '') + '/' + base;
 });
 

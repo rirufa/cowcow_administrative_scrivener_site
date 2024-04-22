@@ -9,6 +9,7 @@ block custom_header
 
 block content
 		#infomation
+			| !{page.content}
 			#topics
 				each item in get_pages()
 					#summary
@@ -17,15 +18,10 @@ block content
 						- if(item.thumbnail != null)
 							img(src=`${item.thumbnail}`)
 						p #{item.summary}
-			#prerelease
-				h2 #{res.index.prerelease_title}
-				table
-					each item in get_posts()
-						tr
-							td #{date(item.date, "YYYY-MM-DD" )}
-							td
-								a(href=`/${item.path}`) #{item.title}
-				a(href=`${url_for('archives')}`) #{res.index.oldprerelease_title}
+				#summary
+					h3
+						a(href=`${url_for_i18n('archives')}`) #{res.index.oldarchives_title}
+					p #{res.index.oldarchives_summary}
 
 block custom_footer
 	include _footer

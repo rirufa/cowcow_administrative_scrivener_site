@@ -1,32 +1,41 @@
+const {
+    pathJoin,
+    isDefaultLanguage,
+    url_for,
+    postFilter,
+    injectLanguages,
+    getUsedLanguages,
+    getDisplayLanguages,
+    getPageLanguage,
+    isLanguageValid,
+    formatRfc5646,
+    formatIso639,
+    getClosestRfc5646WithCountryCode
+} = require('../lib/i18n')(hexo);
+
+
 hexo.extend.helper.register('get_resouce', function() {
   let lang = (this.page.lang || this.page.language);
   return this.site.data.resources[lang];
 });
 
 hexo.extend.helper.register('get_current_lang', function (item) {
-  //一番最初は言語タグ
-  return item.path.split('/')[0];
+  return getPageLanguage(item);
+});
+
+hexo.extend.helper.register('url_for_i18n', function (item) {
+  return url_for(getPageLanguage(this.page) + "/"+ item);
 });
 
 hexo.extend.helper.register('get_langs', function (item) {
-  return this.config.language.filter(function(item){
-    return item != "default";
-  })
+  return getDisplayLanguages();
 });
 
 hexo.extend.helper.register('get_pages', function () {
   const self = this;
   //現在表示中のページの言語
   const lang = self.get_current_lang(this.page);
-  pages = hexo.locals.get('pages').filter(page => page.language == lang && page.layout == 'page');
-  return pages.data;
-});
-
-hexo.extend.helper.register('get_posts', function () {
-  const self = this;
-  //現在表示中のページの言語
-  const lang = self.get_current_lang(this.page);
-  pages = hexo.locals.get('posts').filter(page => page.language == lang);
+  pages = hexo.locals.get('pages').filter(page => page.language == lang && page.layout == 'page' && page.hidden != true);
   return pages.data;
 });
 

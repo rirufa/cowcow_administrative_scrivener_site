@@ -16,9 +16,9 @@
 		},
 		"index": {
 			"prerelease_title":"プレリリース",
-			"oldprerelease_title":"過去のプレリリース",
-			"oldprerelease_title_by_category":"カテゴリー一覧",
-			"oldprerelease_title_by_tag":"タグ一覧"
+			"oldarchives_title":"過去のプレリリース",
+			"oldarchives_title_by_category":"カテゴリー一覧",
+			"oldarchives_title_by_tag":"タグ一覧"
 		}
 	},
 	"en": {
@@ -38,9 +38,9 @@
 		},
 		"index": {
 			"prerelease_title":"NEWS",
-			"oldprerelease_title":"OLD NEWS",
-			"oldprerelease_title_by_category":"CATEGORIES LIST",
-			"oldprerelease_title_by_tag":"TAGS LIST"
+			"oldarchives_title":"OLD NEWS",
+			"oldarchives_title_by_category":"CATEGORIES LIST",
+			"oldarchives_title_by_tag":"TAGS LIST"
 		}
 	}
 }
