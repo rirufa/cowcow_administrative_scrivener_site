@@ -2,9 +2,9 @@
 	"ja": {
 		"lang_name":"日本語",
 		"company_info": {
-			"name": "カウカウ行政書士事務所",
-			"tel": "03-6458-1098",
-			"fax_tel": "03-6458-1150",
+			"name": "東浅草行政書士事務所",
+			"tel": "03-6420-1164",
+			"fax_tel": "03-6458-1098",
 			"mobile" : "090-4453-8972",
 			"opentime": "営業時間 11時から18時",
 			"mail": "cowcowhomes201@yahoo.co.jp",
@@ -24,7 +24,7 @@
 	"en": {
 		"lang_name":"English",
 		"company_info": {
-			"name": "COWCOW Administrative scrivener Office",
+			"name": "Higashi asakusa Administrative scrivener Office",
 			"tel": "03-6458-1098",
 			"fax_tel": "03-6458-1150",
 			"mobile" : "090-4453-8972",

@@ -19,7 +19,7 @@ summary: 当事務所の業務や制作例などを記載してます
 |    |    |
 | ---- | ---- |
 |  住所  |  〒111-0025 東京都台東区東浅草２丁目２４−１７  |
-|  登録番号  |    |
+|  登録番号  |  西尾行雄  24081678 |
 |  メールアドレス  |  [daisaku@cowcowhomes.com](mailto:daisaku@cowcowhomes.com)  |
 |  LINE ID  |  [daichan19740626](https://line.me/ti/p/daichan19740626)  |
 |  WhatsApp |  [QR CODE](https://wa.me/qr/KLSJ6JJ7Z277L1)  |
