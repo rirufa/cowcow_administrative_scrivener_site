@@ -13,13 +13,15 @@ summary: 当事務所の業務や制作例などを記載してます
 * 在留資格の更新や変更を行いたい
 * 解雇されたが、家賃が支払えない
 * ホームページの作成
+* 人事労務について相談したい
+* 就業規則を作成したい
 
 また、風俗営業可能な店舗、事務所、住居も併せて探すことができます（→[cowcowhomes](https://www.cowcowhomes.com/)）
 
 |    |    |
 | ---- | ---- |
 |  住所  |  〒111-0025 東京都台東区東浅草２丁目２４−１７  |
-|  登録番号  |  西尾行雄  24081678 |
+|  登録番号  |  西尾行雄 行政書士：24081678 特定社会保険労務士 |
 |  メールアドレス  |  [daisaku@cowcowhomes.com](mailto:daisaku@cowcowhomes.com)  |
 |  LINE ID  |  [daichan19740626](https://line.me/ti/p/daichan19740626)  |
 |  WhatsApp |  [QR CODE](https://wa.me/qr/KLSJ6JJ7Z277L1)  |

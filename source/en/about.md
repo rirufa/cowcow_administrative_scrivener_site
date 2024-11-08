@@ -7,13 +7,15 @@ tags:
 thumbnail:
 summary: Written about location and duties
 ---
-We can help you worrying with administrative scrivener
+We can help you worrying with administrative scrivener and Labor and Social Security Attorney
 
 * I want to get or renew license for resturnat,second hand shop etc
 * I want to renew or update license because inheritance from my parent
 * I want to get or update visa
 * I can't pay room fee because I was lay off.
 * bulding website
+* About working and management
+* Making work rules
 
 Also we can find room and office for you in [cowcowhomes](https://www.cowcowhomes.com/)
 
